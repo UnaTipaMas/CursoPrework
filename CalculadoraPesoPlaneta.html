@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calcula tu Peso en diferentes cuerpos Celestes</title>
+    </head>
+<body>
+    <h1>Tu peso en otro cuerpo Celeste.</h1> 
+    <h2>Sorprende hasta a Elon Musk con esta informacion</h2>
+    <p>En la tierra pesas distinto que en Marte o Jupiter. Aunque no te confundas esto no es igual a masa, ehhh...</p>
+
+    <script>
+    var g_tierra = 9.8;
+    var g_marte = 3.7;
+    var g_jupiter = 24.8;
+    var peso = 80
+    var peso_final;
+    peso_final = peso * g_marte / g_tierra;
+    peso_final = parseInt(peso_final);
+    document.write (peso_final);
+    </script>
+</body>
+</html>
